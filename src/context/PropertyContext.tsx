@@ -31,18 +31,31 @@ interface PropertyContextType {
   getPropertyUrl: (slug: string) => string;
 }
 
-const STORAGE_KEY = 'propertydey_portfolio_v17';
+const STORAGE_KEY = 'propertydey_portfolio_v18';
 
 function sanitizeProperty(raw: any, fallback: Property): Property {
   if (!raw || typeof raw !== 'object') return fallback;
 
-  const rawGallery = Array.isArray(raw.gallery) && raw.gallery.length > 0 ? raw.gallery : fallback.gallery;
+  const isCorruptedMedia = (item: any) =>
+    !item ||
+    item.id === 'penn-gal-video' ||
+    (typeof item.url === 'string' && item.url.includes('VID-20261110-WA0005')) ||
+    (typeof item.thumbnailUrl === 'string' && item.thumbnailUrl.includes('VID-20261110-WA0005'));
+
+  const rawGallery = Array.isArray(raw.gallery) && raw.gallery.length > 0
+    ? raw.gallery.filter((item: any) => !isCorruptedMedia(item))
+    : fallback.gallery;
   const mergedGallery = [...rawGallery];
   for (const defaultItem of fallback.gallery) {
     if (!mergedGallery.some(item => item && item.id === defaultItem.id)) {
       mergedGallery.push(defaultItem);
     }
   }
+
+  const heroImage =
+    typeof raw.heroImage === 'string' && raw.heroImage && !raw.heroImage.includes('VID-20261110-WA0005')
+      ? raw.heroImage
+      : fallback.heroImage;
 
   return {
     ...fallback,
@@ -51,7 +64,7 @@ function sanitizeProperty(raw: any, fallback: Property): Property {
     slug: raw.slug || fallback.slug,
     name: raw.name || fallback.name,
     tagline: raw.tagline || fallback.tagline,
-    heroImage: raw.heroImage || fallback.heroImage,
+    heroImage,
     location: {
       ...fallback.location,
       ...(raw.location || {})

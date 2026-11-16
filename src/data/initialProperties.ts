@@ -745,7 +745,7 @@ export const INITIAL_PROPERTIES: Property[] = [
     slug: "pennsylvania-sangotedo-duplex",
     name: "4-Bed Automated Detached Duplexes",
     tagline: "Fully Automated 3-Unit Enclave with Private Cinema, Pool & BQ in Lekki Pennsylvania, Sangotedo",
-    heroImage: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+    heroImage: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
     location: {
       address: "Lekki Pennsylvania, Sangotedo, Ajah",
       landmark: "Directly located in Lekki Pennsylvania, Sangotedo, minutes from Novare Lekki Mall (Shoprite), Lagos Business School, Crown Estate & Monastery Road",
@@ -923,17 +923,6 @@ export const INITIAL_PROPERTIES: Property[] = [
     ],
     gallery: [
       {
-        id: "penn-gal-video",
-        title: "4-Bedroom Duplex with Cinema & Pool Full Walkthrough Tour",
-        type: "video",
-        category: "site_inspection",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/v1794307764/VID-20261110-WA0005.mp4",
-        thumbnailUrl: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_800,c_scale/v1794307764/VID-20261110-WA0005.jpg",
-        videoDuration: "2:22",
-        dateAdded: "November 2026",
-        description: "Official comprehensive 2:22 walkthrough of the 4-bedroom automated detached duplex in Lekki Pennsylvania Sangotedo featuring automated door, cinema room, pool, double-door fridge, washing machine, and chandeliers."
-      },
-      {
         id: "penn-gal-video-2",
         title: "4-Bed Automated Detached Duplex — Interior & Exterior Video Tour",
         type: "video",
@@ -942,14 +931,14 @@ export const INITIAL_PROPERTIES: Property[] = [
         thumbnailUrl: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_800,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         videoDuration: "2:02",
         dateAdded: "November 2026",
-        description: "Additional inspection walkthrough of the 4-bedroom automated detached duplexes in Lekki Pennsylvania, Sangotedo highlighting smart automation, spacious living quarters, modern finishes, and exterior frontage."
+        description: "Official inspection walkthrough of the 4-bedroom automated detached duplexes in Lekki Pennsylvania, Sangotedo highlighting smart automation, spacious living quarters, modern finishes, and exterior frontage."
       },
       {
         id: "penn-gal-1",
         title: "Modern Architectural Facade & Automated Entry",
         type: "image",
         category: "render",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_2,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Brand new contemporary exterior architecture with smart automated door, expansive private parking, and perimeter security in Lekki Pennsylvania"
       },
@@ -958,7 +947,7 @@ export const INITIAL_PROPERTIES: Property[] = [
         title: "Spacious Living Room, POP Ceilings & Crystal Chandelier",
         type: "image",
         category: "render",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_20,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_20,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Palatial living lounge with designer POP ceiling, statement crystal chandelier, aesthetic light fittings, and Bluetooth surround sound speakers"
       },
@@ -967,7 +956,7 @@ export const INITIAL_PROPERTIES: Property[] = [
         title: "Fitted Kitchen with Double-Door Fridge & Washing Machine",
         type: "image",
         category: "render",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_50,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_45,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Fully fitted luxury kitchen complete with integrated double-door refrigerator, automatic washing machine, heat extractor, and custom cabinetry"
       },
@@ -976,7 +965,7 @@ export const INITIAL_PROPERTIES: Property[] = [
         title: "Private In-House Cinema Room & Acoustic Lighting",
         type: "image",
         category: "site_inspection",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_80,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_70,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Exclusive private cinema theater room with sound acoustic insulation, tiered viewing space, and immersive mood lighting"
       },
@@ -985,7 +974,7 @@ export const INITIAL_PROPERTIES: Property[] = [
         title: "Private Swimming Pool & Outdoor Relaxation Terrace",
         type: "image",
         category: "site_inspection",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_105,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_95,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Private in-ground swimming pool with clean filtration system, outdoor shower, and entertainment patio"
       },
@@ -994,7 +983,7 @@ export const INITIAL_PROPERTIES: Property[] = [
         title: "Luxury Primary Bedroom Suite, Walk-in Closet & Balcony",
         type: "image",
         category: "render",
-        url: "https://res.cloudinary.com/auxlootd/video/upload/so_125,w_960,c_scale/v1794307764/VID-20261110-WA0005.jpg",
+        url: "https://res.cloudinary.com/auxlootd/video/upload/so_110,w_960,c_scale/v1794408381/VID-20261110-WA0001.jpg",
         dateAdded: "November 2026",
         description: "Expansive master bedroom with walk-in wardrobe closet, water heater, private balcony, and contemporary ensuite bathroom"
       }
