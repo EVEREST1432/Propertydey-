@@ -1,0 +1,6 @@
+{
+  "name": "Property Dey - Garelt Court Digital Brochure",
+  "description": "Exclusive QR code-based digital property listing for Garelt Court in Osapa London, Lekki by Property Dey Ltd, featuring 2 & 3-bedroom luxury apartments, verified Governors Consent & C of O, and direct WhatsApp desk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
